@@ -72,11 +72,23 @@ export default function Home() {
 
     return (
         <main>
+            
             <div className="bg-cover bg-center h-80" style={{ backgroundImage: "url('/images/cosmetics.jpg')" }}>
                 <div className="flex items-center justify-center">
                     <h1 className="text-gray-100 text-6xl font-black">Welcome To MakeupShakeup</h1>
                 </div>
             </div>
+              <div className="w-3/4 m-auto mt-20">
+              <h2 className="text-3xl  text-pink-800 font-bold text-center">About Us</h2>
+              <p className="mt-4 text-center text-gray-600">
+                  At MakeupShakeup, we believe that beauty is about enhancing your natural features and expressing yourself. 
+                  Our curated collection of cosmetics is designed to inspire creativity and confidence. Whether you’re looking for everyday essentials or bold statement products, we have something for everyone.
+              </p>
+              <p className="mt-4 text-center text-gray-600">
+                  We are passionate about quality and strive to provide products that are not only effective but also safe for your skin. 
+                  Join us on this journey of self-expression and discover the transformative power of makeup!
+              </p>
+          </div>
 
             <div className="w-3/4 m-auto mt-10">
             <h2 className="text-3xl font-bold text-center text-pink-800 mb-6">Products</h2>
@@ -96,20 +108,11 @@ export default function Home() {
                     ))}
                 </div>
             </div>
-            <div className="w-3/4 m-auto mt-20">
-                <h2 className="text-3xl  text-pink-800 font-bold text-center">About Us</h2>
-                <p className="mt-4 text-center text-gray-600">
-                    At MakeupShakeup, we believe that beauty is about enhancing your natural features and expressing yourself. 
-                    Our curated collection of cosmetics is designed to inspire creativity and confidence. Whether you’re looking for everyday essentials or bold statement products, we have something for everyone.
-                </p>
-                <p className="mt-4 text-center text-gray-600">
-                    We are passionate about quality and strive to provide products that are not only effective but also safe for your skin. 
-                    Join us on this journey of self-expression and discover the transformative power of makeup!
-                </p>
-            </div>
+          
 
 
-            <div><h2 className="text-3xl  text-pink-800 font-bold text-center">Contact Us</h2>
+            <div className="mt-10 mb-10">
+                <h2 className=" text-3xl  text-pink-800 font-bold text-center">Contact Us</h2>
     <p className="mt-4 text-center text-gray-600">
         We would love to hear from you! Reach out to us through any of the platforms below.
     </p>
