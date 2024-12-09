@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Home() {
     const data = [
         {
@@ -79,7 +80,7 @@ export default function Home() {
                             className="bg-white h-[450px] text-gray-600 rounded-xl shadow-md transition-transform transform hover:scale-105"
                         >
                             <div className="h-56 rounded-t-xl bg-slate-100 flex justify-center items-center">
-                                <img
+                                <Image
                                     src={d.image}
                                     alt={d.name}
                                     className="h-44 w-44 rounded-full object-cover"
