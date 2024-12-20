@@ -97,7 +97,7 @@ export default function Home() {
                     {data.map((d, index) => (
                         <div key={index} className="bg-white h-[450px] text-brown-400 rounded-xl shadow-md transition-transform transform hover:scale-105">
                             <div className="h-56 rounded-t-xl bg-slate-100 flex justify-center items-center">
-                                <Image src={d.image} alt={d.name} className="h-44 w-44 rounded-full" />
+                                <Image src={d.image} alt={d.name} height="44" width="44" className="h-44 w-44 rounded-full" />
                             </div>
                             <div className="flex flex-col justify-center items-center gap-4 p-4">
                                 <p className="text-xl font-semibold">{d.name}</p>

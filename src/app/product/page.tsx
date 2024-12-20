@@ -83,6 +83,8 @@ export default function Home() {
                                 <Image
                                     src={d.image}
                                     alt={d.name}
+                                    height="44"
+                                    width="44"
                                     className="h-44 w-44 rounded-full object-cover"
                                 />
                             </div>
